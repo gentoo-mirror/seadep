@@ -1,4 +1,6 @@
 app-text/ebook-viewer 9999: Simple Ebook viewer
+dev-libs/retro-gtk 0.8.1: Toolkit to write Gtk+ 3 based libretro frontends
 dev-vcs/gitkraken 1.9.3: The downright luxurious Git client,for Windows, Mac & Linux
+games-util/gnome-games 3.22.0: A game manager application for GNOME
+games-util/itch 22.2.0: A simple way to find and share indie games online for free.
 sci-mathematics/geogebra 5.0.306.0 5.0.309.0: Mathematics software for geometry
-x11-misc/itch 22.2.0: A simple way to find and share indie games online for free.
