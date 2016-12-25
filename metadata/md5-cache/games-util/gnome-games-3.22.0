@@ -1,5 +1,5 @@
-DEFINED_PHASES=compile install prepare
-DEPEND=app-arch/libarchive app-misc/tracker =dev-lang/vala-0.32.1 dev-libs/retro-gtk media-libs/grilo[vala] x11-libs/cairo !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=compile install postinst postrm preinst prepare
+DEPEND=app-arch/libarchive app-misc/tracker =dev-lang/vala-0.32.1 dev-libs/retro-gtk media-libs/grilo[vala] x11-libs/cairo !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=sys-apps/sed-4 dev-util/desktop-file-utils x11-misc/shared-mime-info
 DESCRIPTION=A game manager application for GNOME
 EAPI=6
 HOMEPAGE=https://wiki.gnome.org/Apps/Games
@@ -9,6 +9,6 @@ LICENSE=GPL-3
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://git.gnome.org/browse/gnome-games/snapshot/gnome-games-3.22.0.tar.xz
-_eclass_exported_funcs=src_prepare:- src_compile:- src_install:-
-_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=e3461f18680e3f102142ef1e3dc3ee03
+_eclass_exported_funcs=pkg_preinst:- pkg_postrm:- pkg_postinst:- src_prepare:- src_compile:- src_install:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	gnome2-utils	c6dcdf3a2c22b578b16adb945dc85c35	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	xdg	a5c4c5ce4f5ce9a2e777f5d9a40a8723	xdg-utils	e2b2bd56125ce8cf59ce30c642b59d48
+_md5_=0fc34453adb64882348926834e55c5d8
