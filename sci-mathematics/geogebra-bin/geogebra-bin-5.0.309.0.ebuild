@@ -3,24 +3,24 @@
 # $Id$
 
 EAPI=6
-inherit eutils gnome2-utils xdg
+inherit eutils gnome2-utils versionator xdg
 DESCRIPTION="Mathematics software for geometry"
 HOMEPAGE="https://www.geogebra.org"
 SRC_URI="https://www.geogebra.org/home/get/package/linux-port -> ${P}.tar.bz2"
 KEYWORDS="~amd64 ~x86"
-LICENSE="CC-BY-ND-3.0" # FIXME: and more
+LICENSE="CC-BY-ND-3.0 GPL-3"
 SLOT="0"
 RESTRICT="mirror"
 IUSE="binary"
 DEPEND=""
 RDEPEND="!binary? ( virtual/jre )"
-GEOGEBRA_VERSION="5-0-309-0" # FIXME: see https://devmanual.gentoo.org/ebuild-writing/variables/
+MY_PV=$(replace_all_version_separators '-')
 
 src_unpack() {
 	if [ ${A} != "" ]; then
 		unpack ${A}
 	fi
-	S=${WORKDIR}/GeoGebra-Linux-Portable-${GEOGEBRA_VERSION}
+	S=${WORKDIR}/GeoGebra-Linux-Portable-${MY_PV}
 }
 
 src_install() {
@@ -43,10 +43,10 @@ src_install() {
 		"geogebra" \
 		Science
 	else
-		local destdir="/opt/"
+		local destdir="/opt/${PN}"
 		insinto $destdir
-		dosym $destdir/geogebra/geogebra /usr/bin/geogebra
-		make_desktop_entry geogebra Geogebra "geogebra" Science
+		dosym $destdir/geogebra/geogebra /usr/bin/geogebra-bin
+		make_desktop_entry geogebra-bin Geogebra "geogebra" Science
 	fi
 
 	doins -r geogebra
