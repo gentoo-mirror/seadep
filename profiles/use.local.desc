@@ -2,4 +2,4 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-sci-mathematics/geogebra:binary - Use provived jre (necessary for logging into Geogebra)
+sci-mathematics/geogebra-bin:binary - Use provived jre (necessary for logging into Geogebra)
