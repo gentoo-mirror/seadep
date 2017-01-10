@@ -6,4 +6,4 @@ games-util/itch-bin 22.2.0: A simple way to find and share indie games online fo
 net-im/rambox-bin 0.4.5: Free, Open Source and Cross Platform messaging and emailing app
 sci-mathematics/geogebra 5.0.309: Mathematics software for geometry
 sci-mathematics/geogebra-bin 5.0.309.0-r1: Mathematics software for geometry
-x11-terms/hyper 1.0.1: JS/HTML/CSS Terminal
+x11-terms/hyper 1.0.1 1.1.0: JS/HTML/CSS Terminal
