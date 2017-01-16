@@ -4,5 +4,5 @@ dev-vcs/gitkraken-bin 1.9.3: The downright luxurious Git client,for Windows, Mac
 games-util/gnome-games 3.22.0: A game manager application for GNOME
 games-util/itch-bin 22.2.0 23.0.0: A simple way to find and share indie games online for free.
 net-im/rambox-bin 0.4.5: Free, Open Source and Cross Platform messaging and emailing app
-sci-mathematics/geogebra-bin 5.0.311.0: Mathematics software for geometry
+sci-mathematics/geogebra-bin 5.0.311.0 5.0.313.0: Mathematics software for geometry
 x11-terms/hyper 1.1.0: JS/HTML/CSS Terminal
