@@ -5,5 +5,5 @@ games-util/gnome-games 3.22.0: A game manager application for GNOME
 games-util/itch-bin 23.2.1: A simple way to find and share indie games online for free.
 net-im/rambox-bin 0.5.2: Free, Open Source and Cross Platform messaging and emailing app
 sci-mathematics/geogebra 9999: Mathematics software for geometry
-sci-mathematics/geogebra-bin 5.0.326.0: Mathematics software for geometry
+sci-mathematics/geogebra-bin 5.0.327.0: Mathematics software for geometry
 x11-terms/hyper 1.1.0: JS/HTML/CSS Terminal
