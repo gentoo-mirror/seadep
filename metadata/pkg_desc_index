@@ -1,12 +1,12 @@
 app-text/ebook-viewer 9999: Simple Ebook viewer
-dev-libs/retro-gtk 0.8.1: Toolkit to write Gtk+ 3 based libretro frontends
+dev-libs/retro-gtk 0.10.0: Toolkit to write Gtk+ 3 based libretro frontends
 dev-python/gmusicapi 10.1.0: An unofficial api for Google Play Music
 dev-python/gpsoauth 0.4.1: A python client library for Google Play Services OAuth
 dev-python/pycryptodomex 3.4.5: A self-contained cryptographic library for Python
 dev-python/validictory 1.1.0: General purpose python data validator
 dev-vcs/gitkraken-bin 2.0.1: The downright luxurious Git client,for Windows, Mac & Linux
 games-util/itch-bin 23.4.0: A simple way to find and share indie games online for free.
-gnome-extra/gnome-games 3.22.0: A game manager application for GNOME
+gnome-extra/gnome-games 3.24.1: A game manager application for GNOME
 gnome-extra/gnome-recipes 1.0.4: A game manager application for GNOME
 media-sound/gmusicproxy 1.0.8: Google Play Music Proxy
 net-im/rambox-bin 0.5.3: Free, Open Source and Cross Platform messaging and emailing app
