@@ -2,5 +2,5 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-gnome-extra/gnome-recipes:autoar - Use gnome-autoar for export/import support
-gnome-extra/gnome-recipes:spell - Use gspell for spell-checking
+gnome-extra/gnome-recipes:autoar - Use gnome-autoar to support importing/exporting recipes
+gnome-extra/gnome-recipes:sound - Use libcanberra to support audio playback
