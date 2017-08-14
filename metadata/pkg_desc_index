@@ -4,7 +4,7 @@ dev-python/gmusicapi 10.1.2: An unofficial api for Google Play Music
 dev-python/gpsoauth 0.4.1: A python client library for Google Play Services OAuth
 dev-python/pycryptodomex 3.4.6: A self-contained cryptographic library for Python
 dev-python/validictory 1.1.1: General purpose python data validator
-dev-vcs/gitkraken-bin 2.7.0: The downright luxurious Git client,for Windows, Mac & Linux
+dev-vcs/gitkraken-bin 2.7.0-r1: The downright luxurious Git client,for Windows, Mac & Linux
 games-util/itch-bin 23.4.2: A simple way to find and share indie games online for free.
 gnome-extra/gnome-games 3.24.1: A game manager application for GNOME
 gnome-extra/gnome-pomodoro 0.13.2: A Pomodoro timer for Gnome
