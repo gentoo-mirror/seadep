@@ -12,4 +12,4 @@ gnome-extra/gnome-recipes 1.4.2: A game manager application for GNOME
 gnome-extra/gnome-twitch 0.4.1: Enjoy Twitch on your GNU/Linux desktop
 media-sound/gmusicproxy 1.0.8: Google Play Music Proxy
 net-im/rambox-bin 0.5.3 0.5.9: Free, Open Source and Cross Platform messaging and emailing app
-x11-terms/hyper 1.4.0 9999: JS/HTML/CSS Terminal
+x11-terms/hyper 1.4.3 9999: JS/HTML/CSS Terminal
