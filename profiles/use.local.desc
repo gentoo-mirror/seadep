@@ -2,9 +2,3 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-gnome-extra/gnome-recipes:autoar - Use gnome-autoar to support importing/exporting recipes
-gnome-extra/gnome-recipes:sound - Use libcanberra to support audio playback
-gnome-extra/gnome-twitch:gst-cairo - Add GStreamer Cairo player backend.
-gnome-extra/gnome-twitch:gst-clutter - Add GStreamer Clutter player backend.
-gnome-extra/gnome-twitch:gst-opengl - Add GStreamer OpenGL player backend.
-gnome-extra/gnome-twitch:mpv - Add MPV OpenGL player backend.
