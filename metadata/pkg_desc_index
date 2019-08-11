@@ -1,0 +1,6 @@
+app-text/ebook-viewer 9999: Simple Ebook viewer
+dev-libs/retro-gtk 0.10.0: Toolkit to write Gtk+ 3 based libretro frontends
+games-util/itch-bin 23.4.2: A simple way to find and share indie games online for free.
+gnome-extra/gnome-games 3.24.1: A game manager application for GNOME
+gnome-extra/gnome-recipes 1.4.2: A game manager application for GNOME
+gnome-extra/gnome-twitch 0.4.1: Enjoy Twitch on your GNU/Linux desktop
